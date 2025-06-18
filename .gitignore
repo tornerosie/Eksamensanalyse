@@ -135,6 +135,10 @@ venv/
 ENV/
 env.bak/
 venv.bak/
+*.conda
+*.whl
+*.tar.gz
+
 
 # Spyder project settings
 .spyderproject
@@ -185,6 +189,16 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+#OS files:
+Thumbs.db
+*.pyd
+*.dll
+*.so
+*.exe
+win*
+.DS_Store
+*.log
 
 # Cursor
 #  Cursor is an AI-powered code editor. `.cursorignore` specifies files/directories to
